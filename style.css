@@ -1,0 +1,89 @@
+@font-face {
+    font-family: Googlefont;
+    src: url(./BricolageGrotesque-VariableFont_opsz\,wdth\,wght.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: Googlefont;
+    background-color: #e4eceb;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h1, h2 {
+    text-transform: uppercase;
+}
+
+.topBottomSection {
+    color: white;
+    background-color: #1B3C53;
+}
+
+#intro {
+    padding: 40px;
+}
+
+.section {
+    width: 70%;
+    margin: 20px auto;
+    padding: 40px 20px;
+    border-radius: 10px;
+}
+
+
+#about_me {
+    background-color: #fff;
+}
+
+#about_me>p {
+    margin-top: 20px;
+}
+
+#education {
+    background-color: #c8eefc;
+}
+
+.box {
+    width: 70%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 10px;
+}
+
+#skills {
+    background-color: #fde0a5;
+}
+
+#projects {
+    background-color: #dddfff;
+}
+
+
+#footer {
+    padding: 10px;
+}
+
+#footer>p+p {
+    margin-top: 10px;
+}
+
+#footer a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
