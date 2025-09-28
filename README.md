@@ -1,8 +1,7 @@
 # Cohort Day 10 task
-
 Create a simple resume webpage for practicing text styling, colors, background and font
 
----
+
 ## Common Container Styling
 ```
 .section {
@@ -12,7 +11,6 @@ Create a simple resume webpage for practicing text styling, colors, background a
     border-radius: 10px;
 }
 ```
----
 ## Styling of boxes inside container
 ```
 .box {
@@ -22,7 +20,7 @@ Create a simple resume webpage for practicing text styling, colors, background a
     padding: 10px;
 }
 ```
----
+
 ## Custom Font Family
 ```
 @font-face {
